@@ -1,0 +1,36 @@
+[
+      {
+      "model": "survey.question",
+      "pk": 1,
+      "fields": {
+        "text": "В каком году Гвидо ван Россум приступил к созданию python?"
+      }
+    },
+      {
+      "model": "survey.question",
+      "pk": 2,
+      "fields": {
+        "text": "Потомок какого языка является python?"
+      }
+    },
+      {
+      "model": "survey.question",
+      "pk": 3,
+      "fields": {
+        "text": "Каким языком является python?"
+      }
+    },
+      {
+      "model": "survey.question",
+      "pk": 4,
+      "fields": {
+        "text": "Какие из этих языков программирования, являются языками с динамической типизацией?"
+      }
+    },    {
+      "model": "survey.question",
+      "pk": 5,
+      "fields": {
+        "text": "Какие из этих СУБД являются реляционными?"
+      }
+    }
+]

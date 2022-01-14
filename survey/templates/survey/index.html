@@ -1,0 +1,7 @@
+{% extends "survey/base.html" %}
+
+
+{% block content %}
+{{ question }}
+{% include 'survey/form.html' with button='Далее' %}
+{% endblock content %}

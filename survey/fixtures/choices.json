@@ -1,0 +1,182 @@
+[
+    {
+      "model": "survey.choice",
+      "pk": 1,
+      "fields": {
+        "text": "1992",
+        "question": 1,
+        "is_correct": false
+      }
+    },
+    {
+        "model": "survey.choice",
+        "pk": 2,
+        "fields": {
+          "text": "1991",
+          "question": 1,
+          "is_correct": true
+        }
+    },
+    {
+        "model": "survey.choice",
+        "pk": 3,
+        "fields": {
+          "text": "2001",
+          "question": 1,
+          "is_correct": false
+        }
+      },
+      {
+          "model": "survey.choice",
+          "pk": 4,
+          "fields": {
+            "text": "2022",
+            "question": 1,
+            "is_correct": false
+          }
+      },
+      {
+        "model": "survey.choice",
+        "pk": 5,
+        "fields": {
+          "text": "ABC",
+          "question": 2,
+          "is_correct": true
+        }
+      },
+      {
+          "model": "survey.choice",
+          "pk": 6,
+          "fields": {
+            "text": "C#",
+            "question": 2,
+            "is_correct": false
+          }
+      },
+      {
+        "model": "survey.choice",
+        "pk": 7,
+        "fields": {
+          "text": "Java",
+          "question": 2,
+          "is_correct": false
+        }
+      },
+      {
+          "model": "survey.choice",
+          "pk": 8,
+          "fields": {
+            "text": "Русского",
+            "question": 2,
+            "is_correct": false
+          }
+      },
+      {
+        "model": "survey.choice",
+        "pk": 9,
+        "fields": {
+          "text": "Мультипарадигмальным",
+          "question": 3,
+          "is_correct": true
+        }
+      },
+      {
+          "model": "survey.choice",
+          "pk": 10,
+          "fields": {
+            "text": "Процедурным",
+            "question": 3,
+            "is_correct": false
+          }
+      },
+      {
+        "model": "survey.choice",
+        "pk": 11,
+        "fields": {
+          "text": "Предметно-ориентированным",
+          "question": 3,
+          "is_correct": false
+        }
+      },
+      {
+          "model": "survey.choice",
+          "pk": 12,
+          "fields": {
+            "text": "Лингвистическим",
+            "question": 3,
+            "is_correct": false
+          }
+      },
+      {
+          "model": "survey.choice",
+          "pk": 13,
+          "fields": {
+            "text": "Java",
+            "question": 4,
+            "is_correct": false
+          }
+        },
+        {
+            "model": "survey.choice",
+            "pk": 14,
+            "fields": {
+              "text": "C#",
+              "question": 4,
+              "is_correct": false
+            }
+        },
+        {
+          "model": "survey.choice",
+          "pk": 15,
+          "fields": {
+            "text": "Python",
+            "question": 4,
+            "is_correct": true
+          }
+        },
+        {
+            "model": "survey.choice",
+            "pk": 16,
+            "fields": {
+              "text": "JavaScript",
+              "question": 4,
+              "is_correct": true
+            }
+        },
+        {
+          "model": "survey.choice",
+          "pk": 17,
+          "fields": {
+            "text": "MySql",
+            "question": 5,
+            "is_correct": true
+          }
+        },
+        {
+            "model": "survey.choice",
+            "pk": 18,
+            "fields": {
+              "text": "MongoDB",
+              "question": 5,
+              "is_correct": false
+            }
+        },
+        {
+          "model": "survey.choice",
+          "pk": 19,
+          "fields": {
+            "text": "PostgreSql",
+            "question": 5,
+            "is_correct": true
+          }
+        },
+        {
+            "model": "survey.choice",
+            "pk": 20,
+            "fields": {
+              "text": "CouchDB",
+              "question": 5,
+              "is_correct": false
+            }
+        }
+  ]
