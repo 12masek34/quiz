@@ -100,21 +100,18 @@ docker-compose exec web pycodestyle .
 
 
 
-создание окружения и установка зависимостей:
-
+Запуск приложения:
 
 source venv/bin/activate
 
 pip3 install -r requirements.txt
 
-подготовка данных и запуск приложения
+python manage.py makemigrations
 
-python3 manage.py makemigrations
+python manage.py migrate
 
-python3 manage.py migrate
+python manage.py loaddata questions.json
 
-python3 manage.py loaddata questions.json
+python manage.py loaddata choices.json
 
-python3 manage.py loaddata choices.json
-
-python3 manage.py runserver 0.0.0.0:8000
+python manage.py runserver
